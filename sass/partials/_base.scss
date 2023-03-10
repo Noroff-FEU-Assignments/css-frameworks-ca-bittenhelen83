@@ -1,0 +1,26 @@
+html,
+body {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    color: $color-darkGrey;
+    background: white;
+}
+
+h1,
+h2 {
+    font-family: "Playfair Dusplay", serif;
+}
+
+//colours
+$color-primary: #c7c7c7;
+$color-nav: #EFEFEF;
+$color-secondary: #ffffff;
+$color-accent: #e92569;
+$color-black: #0a0a0a;
+$color-darkGrey: #767676;
+
+
+
