@@ -1,0 +1,14 @@
+.navbar {
+    height: 70px;
+    color: $color-darkGrey;
+
+    :active {
+        
+    }
+}
+
+.navbar-brand {
+    color: $color-accent;
+    font-family: "Playfair Display", serif;
+
+}
