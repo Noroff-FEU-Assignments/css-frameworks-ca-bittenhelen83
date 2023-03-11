@@ -4,5 +4,64 @@ $color-nav: #EFEFEF;
 $color-secondary: #ffffff;
 $color-accent: #e92569;
 $color-black: #0a0a0a;
-$color-darkGrey: red;
+$color-dark-grey: #767676;
+$color-border: #D1D1D1;
 
+
+html,
+body {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden-y;
+}
+
+.wrapper {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex-shrink: 0;
+    height: 53px;
+    margin-top: auto;
+    background-color: white;
+    display: flex;  
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 75px;
+    padding-right: 75px;
+    align-items: center;
+    
+    a {
+        color: $color-dark-grey;
+        text-decoration: none;
+    }
+
+    i {
+        color: $color-dark-grey;
+        font-size: 30px;
+    }
+
+    span {
+        color: $color-dark-grey;
+    }
+
+}
+
+
+
+h1 {
+    color: $color-accent;
+    font-family: "Playfair Display", serif;
+    font-size: 34px;
+}
+
+.container {
+    margin-top: 40px;
+    margin-left: 75px;
+    margin-right: 75px;
+}

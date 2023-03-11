@@ -1,14 +1,44 @@
 .navbar {
     height: 70px;
-    color: $color-darkGrey;
-
-    :active {
-        
-    }
+    padding-right: 75px;
+    background: $color-nav;
 }
 
 .navbar-brand {
     color: $color-accent;
     font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 75px;
+    margin-right: 44px;
+}
 
+.nav-link {
+    font-family: "Lato", sans-serif;
+    color: $color-black;
+    font-size: 16px;
+}
+
+.nav-link.active {
+    background-color: $color-secondary;
+    color: $color-black;
+    border-radius: 5px;
+}
+
+.form-control {
+    width: 202px;
+    border: none;
+    margin: 0px;
+    border-radius: 5px 0px 0px 5px;
+    padding-right: 50px;
+}
+
+.btn {
+    height: 36px;
+    width: 43px;
+    background-color: $color-accent;
+    color: $color-secondary;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    margin-left: -50px;
 }
