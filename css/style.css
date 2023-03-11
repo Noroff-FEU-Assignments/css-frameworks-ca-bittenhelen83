@@ -90,7 +90,7 @@ h1 {
   width: 43px;
   background-color: #e92569;
   color: #ffffff;
-  border: none;
+  border: 1px solid #e92569;
   border-radius: 0px 5px 5px 0px;
   margin-left: -50px;
 }
@@ -141,4 +141,9 @@ body {
 
 div i {
   padding-left: 5px;
+}
+
+.btn-secondary {
+  color: #e92569;
+  background-color: white;
 }/*# sourceMappingURL=style.css.map */
