@@ -56,6 +56,16 @@ h1 {
   background: #EFEFEF;
 }
 
+.btn {
+  height: 36px;
+  width: 43px;
+  background-color: #e92569;
+  color: #ffffff;
+  border: 1px solid #e92569;
+  border-radius: 0px 5px 5px 0px;
+  margin-left: -50px;
+}
+
 .navbar-brand {
   color: #e92569;
   font-family: "Playfair Display", serif;
@@ -83,16 +93,6 @@ h1 {
   margin: 0px;
   border-radius: 5px 0px 0px 5px;
   padding-right: 50px;
-}
-
-.btn {
-  height: 36px;
-  width: 43px;
-  background-color: #e92569;
-  color: #ffffff;
-  border: 1px solid #e92569;
-  border-radius: 0px 5px 5px 0px;
-  margin-left: -50px;
 }
 
 body {
@@ -143,7 +143,34 @@ div i {
   padding-left: 5px;
 }
 
-.btn-secondary {
+#btn-active {
+  height: 36px;
+  width: 43px;
+  background-color: #e92569;
+  color: #ffffff;
+  border: 1px solid #e92569;
+  border-radius: 5px 0px 0px 5px;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  font-size: 16;
+}
+
+#btn {
+  height: 36px;
+  width: 43px;
+  background-color: #ffffff;
   color: #e92569;
-  background-color: white;
+  border-top: 1px solid #e92569;
+  border-bottom: 1px solid #e92569;
+  border-radius: none;
+  margin: 0;
+}
+
+#card-btn {
+  width: 205px;
+  height: 46px;
+  background: linear-gradient(to right, #e92569 85%, #767676 15%);
+  border: none;
+  border-radius: 5px;
+  margin: 0;
 }/*# sourceMappingURL=style.css.map */
