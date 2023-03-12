@@ -45,3 +45,31 @@ i.fa-brands.fa-twitter {
     color: $color-black;
     margin-left: 5px;
 }
+
+//accordion
+.accordion {
+    display: none;
+}
+
+
+//media queries
+@media screen and (max-width: 900px) {
+    .tablist-container {
+        display: none;
+    }
+
+    .accordion {
+        display: contents;
+        
+        
+        .button {
+            background: $color-secondary;
+            color: $color-accent;
+
+
+        button:after {
+            display: none;
+        }
+    }
+    
+}

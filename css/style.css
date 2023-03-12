@@ -94,10 +94,6 @@ a.nav-link.active {
 }
 
 @media screen and (max-width: 600px) {
-  .first-item {
-    margin-top: 30px;
-    background-color: #ffffff;
-  }
   .container-fluid {
     margin-left: 0px;
     margin-right: 0px;
@@ -153,6 +149,23 @@ i.fa-brands.fa-twitter {
   margin-left: 5px;
 }
 
+.accordion {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .tablist-container {
+    display: none;
+  }
+  .accordion {
+    display: contents;
+    background: #ffffff;
+    color: #e92569;
+  }
+  .accordion button:after {
+    display: none;
+  }
+}
 .container {
   margin-left: 75px;
   margin-right: 75px;
