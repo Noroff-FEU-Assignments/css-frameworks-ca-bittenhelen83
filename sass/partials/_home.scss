@@ -1,18 +1,16 @@
-body {
-    background-image: radial-gradient(circle at center, #FFFFFF, #E5E5E5);
-}
-
-.text-container {
-    margin-right: 75px;
-    padding-bottom: 60px;
-    font-size: 16px;
-}
-
 //carousel
+.carousel {
+    margin-bottom: 30px;
+}
+
+.carousel-inner {
+    max-height: 600px;
+}
+
 .carousel-indicators [data-bs-target] {
-        width: 30px;
-        height: 30px;
-        opacity: 1;
+    width: 30px;
+    height: 30px;
+    opacity: 1;
 }
 
 .carousel-indicators .active {
@@ -20,13 +18,7 @@ body {
 }
 
 //tablist
-.tablist-container {
-    margin-right: 75px;
-    padding-bottom: 60px;
-}
-
 .tab-pane {
-    border-top: 0;
     background-color: $color-secondary;
     padding: 50px;
     box-shadow: 0px 5px 5px 5px lightgrey;
@@ -39,11 +31,17 @@ body {
     border-radius: 5px 5px 0px 0px;
 }
 
-.share {
+span.share {
+    color: $color-black;
     text-transform: uppercase;
-    font-size: medium;
 }
 
-div i {
-    padding-left: 5px;
+i.fa-brands.fa-facebook-f {
+    color: $color-black;
+    margin-left: 5px;
+}
+
+i.fa-brands.fa-twitter {
+    color: $color-black;
+    margin-left: 5px;
 }

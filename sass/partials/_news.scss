@@ -1,78 +1,55 @@
+.container {
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+//cards
+.cardrow {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    margin-top: 30px;
+}
+
+.newscard {
+    width: 264px;
+    padding: 0px !important;
+}
+
+#card-btn {
+    width: 232px;
+    color: $color-secondary;
+    background: linear-gradient(to right, $color-accent 85%, $color-dark-grey 15%);
+    border: none;
+    text-transform: uppercase;
+}
+
+//button-group
 .btn-group {
     margin-top: 30px;
 }
 
+#btn {
+    background-color: $color-secondary;
+    color: $color-accent;
+    border: 1px solid $color-accent;
+}
+
 #btn-active {
-    height: 36px;
-    width: 43px;
     background-color: $color-accent;
     color: $color-secondary;
     border: 1px solid $color-accent;
-    border-radius: 5px 0px 0px 5px;
-    margin: 0;
-    font-family: "Lato", sans-serif;
-    font-size: 16;
 }
 
-#btn {
-    height: 36px;
-    width: 43px;
-    background-color: $color-secondary;
-    color: $color-accent;
-    border-top: 1px solid $color-accent;
-    border-bottom: 1px solid $color-accent;
-    border-radius: none;
-    margin-bottom: 20px;
-}
-
-#card-btn {
-    width: 205px;
-    height: 46px;
-    color: white;
-    background: linear-gradient(to right, $color-accent 85%, $color-dark-grey 15%);
-    border: none;
-    border-radius: 5px;
-    margin: 0;
-    font-size: 16;
-    text-transform: uppercase;
-    align-self: flex-end;
-    margin-top: 20px;
-}
-
-.row {
-    display: flex;
-    justify-content: space-between;
-    width: 97%;
-}
-
-div.card-body {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-
-}
-
-#newscard {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding: 0;
-}
-
-h5 {
-    font-family: "Lato", sans-serif;
-    font-size: 20px;
-}
-
-.card-title {
-    width: 205px;
-    margin: 0 auto;
-    margin-bottom: 20px;
-}
-
-.card-text {
-    width: 205px;
-    margin: 0 auto;
+//media queries
+@media screen and (max-width: 600px) {
+    .container {
+        margin: 0 auto;
+        align-content: center;
+    }
+    
+    .newscard {
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }    
 }

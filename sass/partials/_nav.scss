@@ -1,44 +1,70 @@
 .navbar {
-    height: 70px;
-    padding-right: 75px;
-    background: $color-nav;
+    background: $color-nav;    
+    width: 100%;
 }
 
-.btn {
-    height: 36px;
-    width: 43px;
-    background-color: $color-accent;
-    color: $color-secondary;
-    border: 1px solid $color-accent;
-    border-radius: 0px 5px 5px 0px;
-    margin-left: -50px;
+.container-fluid {
+    margin-left: 75px;
+    margin-right: 75px;
 }
 
-.navbar-brand {
+a.navbar-brand {
     color: $color-accent;
     font-family: "Playfair Display", serif;
     font-weight: bold;
     font-style: italic;
-    margin-left: 75px;
-    margin-right: 44px;
 }
 
-.nav-link {
-    font-family: "Lato", sans-serif;
+a.nav-link {
+    margin-left: 30px;
     color: $color-black;
-    font-size: 16px;
 }
 
-.nav-link.active {
+a.nav-link.active {
+    color: $color-black;
     background-color: $color-secondary;
-    color: $color-black;
     border-radius: 5px;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.btn-outline-success {
+    background: $color-accent;
+    color: $color-secondary;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    margin-left: -50px;
+    &:hover {
+        background: $color-secondary;
+        color: $color-accent;
+        border: solid 1px $color-accent;
+    }
 }
 
 .form-control.me-2 {
     width: 202px;
     border: none;
-    margin: 0px;
     border-radius: 5px 0px 0px 5px;
     padding-right: 50px;
+
 }
+
+@media screen and (max-width: 600px) {
+    .first-item {
+        margin-top: 30px;
+        background-color: $color-secondary;
+    }
+
+    .container-fluid {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .form-control.me-2 {
+        width: 353px;
+        font-size: 15px;
+    }
+}
+
