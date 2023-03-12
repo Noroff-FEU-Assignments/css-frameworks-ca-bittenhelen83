@@ -143,6 +143,10 @@ div i {
   padding-left: 5px;
 }
 
+.btn-group {
+  margin-top: 30px;
+}
+
 #btn-active {
   height: 36px;
   width: 43px;
@@ -163,14 +167,93 @@ div i {
   border-top: 1px solid #e92569;
   border-bottom: 1px solid #e92569;
   border-radius: none;
-  margin: 0;
+  margin-bottom: 20px;
 }
 
 #card-btn {
   width: 205px;
   height: 46px;
+  color: white;
   background: linear-gradient(to right, #e92569 85%, #767676 15%);
   border: none;
   border-radius: 5px;
   margin: 0;
+  font-size: 16;
+  text-transform: uppercase;
+  align-self: flex-end;
+  margin-top: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 97%;
+}
+
+div.card-body {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#newscard {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+h5 {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+}
+
+.card-title {
+  width: 205px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.card-text {
+  width: 205px;
+  margin: 0 auto;
+}
+
+.col-one {
+  background: #EFEFEF;
+  width: 555px;
+  height: 100%;
+  display: flex;
+  margin: 10px;
+}
+
+.col-two {
+  margin: 10px;
+}
+
+#form-btn {
+  width: 487px;
+  height: 46px;
+  color: white;
+  background: #767676;
+  border: none;
+  border-radius: 5px;
+  margin: 0;
+  font-size: 16;
+  align-self: flex-end;
+  margin-top: 20px;
+}
+
+.form-control {
+  width: 487px;
+}
+
+.form-check-input {
+  background-color: #e92569;
+}
+
+.form-check-label {
+  font-size: 15px;
 }/*# sourceMappingURL=style.css.map */

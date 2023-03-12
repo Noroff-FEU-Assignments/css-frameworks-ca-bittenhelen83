@@ -1,0 +1,42 @@
+.col-one {
+    background: $color-nav;
+    width: 555px;
+    height: 100%;
+    display: flex;
+    margin: 10px;
+    
+}
+
+.col-two {
+    margin: 10px;
+}
+
+
+#form-btn {
+    width: 487px;
+    height: 46px;
+    color: white;
+    background: $color-dark-grey;
+    border: none;
+    border-radius: 5px;
+    margin: 0;
+    font-size: 16;
+    align-self: flex-end;
+    margin-top: 20px;
+
+}
+
+
+.form-control {
+    width: 487px;
+}
+
+
+.form-check-input {
+    background-color: $color-accent;
+}
+
+
+.form-check-label {
+    font-size: 15px;
+}
