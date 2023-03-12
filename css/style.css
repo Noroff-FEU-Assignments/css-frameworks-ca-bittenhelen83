@@ -287,7 +287,7 @@ address {
   margin-top: -80px;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 600px) {
   div.col.col-one {
     display: flex;
     flex-direction: column;
@@ -295,12 +295,12 @@ address {
     margin: 0;
   }
   .form-control {
-    width: 346px;
+    width: 300px;
   }
   div.input-group {
-    width: 346px;
+    width: 300px;
   }
   #form-btn {
-    width: 346px;
+    width: 300px;
   }
 }/*# sourceMappingURL=style.css.map */
