@@ -36,6 +36,16 @@ div.col.col-one {
     font-size: 15px;
 }
 
+#basic-addon3 {
+    width: 84px;
+    background-color: $color-primary;
+    border: none;
+}
+
+.input-group-text {
+    color: white;
+}
+
 div.col.col-two {
     color: $color-dark-grey;
     margin: 10px;
@@ -53,4 +63,27 @@ address {
     white-space: break-spaces;
     margin-left: 7px;
     margin-top: -80px;
+}
+
+@media screen and (max-width: 992px) {
+    div.col.col-one {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        margin: 0;
+    }
+    
+    .form-control {
+        width: 346px;
+    }
+
+    div.input-group {
+        width: 346px;
+    }
+
+    #form-btn {
+        width: 346px;
+    }
+
+
 }
