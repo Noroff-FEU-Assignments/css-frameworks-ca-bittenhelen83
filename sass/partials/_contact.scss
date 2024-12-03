@@ -1,0 +1,49 @@
+.form-container {
+    margin-left: 14px;
+}
+
+//contact form
+div.col.col-one {
+    background: $color-nav;
+    margin-right: 30px;
+}
+.first-item {
+    margin-top: 30px;
+}
+
+#form-btn {
+    width: 100%;
+    background: $color-dark-grey;
+    color: $color-secondary;
+    border: none;
+    margin-bottom: 30px;
+}
+
+#basic-addon3 {
+    background: $color-primary;
+}
+
+.input-group-text {
+    color: $color-secondary;
+}
+
+.form-check-input {
+    background: $color-accent;
+}
+
+//contact details
+div.col.col-two {
+    color: $color-dark-grey;
+    margin: 10px;
+    font-size: 16px;
+}
+
+address {
+    white-space: break-spaces;
+    margin-left: -145px;
+    margin-top: -50px;
+}
+
+@media screen and (max-width: 990px) {
+    
+}

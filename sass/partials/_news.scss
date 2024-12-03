@@ -1,0 +1,55 @@
+.container {
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+//cards
+.cardrow {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    margin-top: 30px;
+}
+
+.newscard {
+    width: 264px;
+    padding: 0px !important;
+}
+
+#card-btn {
+    width: 232px;
+    color: $color-secondary;
+    background: linear-gradient(to right, $color-accent 85%, $color-dark-grey 15%);
+    border: none;
+    text-transform: uppercase;
+}
+
+//button-group
+.btn-group {
+    margin-top: 30px;
+}
+
+#btn {
+    background-color: $color-secondary;
+    color: $color-accent;
+    border: 1px solid $color-accent;
+}
+
+#btn-active {
+    background-color: $color-accent;
+    color: $color-secondary;
+    border: 1px solid $color-accent;
+}
+
+//media queries
+@media screen and (max-width: 600px) {
+    .container {
+        margin: 0 auto;
+        align-content: center;
+    }
+    
+    .newscard {
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }    
+}

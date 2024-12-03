@@ -1,0 +1,263 @@
+html,
+body {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  color: #767676;
+  font-size: 16px;
+  background-image: radial-gradient(circle at center, #ffffff, #e5e5e5);
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  flex-shrink: 0;
+  padding: 5px 75px 5px 75px;
+  margin-top: 30px;
+}
+footer a {
+  color: #767676;
+  text-decoration: none;
+}
+footer i {
+  font-size: 30px;
+}
+
+.wrapper {
+  flex: 1 0 auto;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  color: #e92569;
+  font-size: 34px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.navbar {
+  background: #EFEFEF;
+  width: 100%;
+}
+
+.container-fluid {
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+a.navbar-brand {
+  color: #e92569;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-style: italic;
+}
+
+a.nav-link {
+  margin-left: 30px;
+  color: #0a0a0a;
+}
+
+a.nav-link.active {
+  color: #0a0a0a;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.btn-outline-success {
+  background: #e92569;
+  color: #ffffff;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+  margin-left: -50px;
+}
+.btn-outline-success:hover {
+  background: #ffffff;
+  color: #e92569;
+  border: solid 1px #e92569;
+}
+
+.form-control.me-2 {
+  width: 202px;
+  border: none;
+  border-radius: 5px 0px 0px 5px;
+  padding-right: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .container-fluid {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .form-control.me-2 {
+    width: 353px;
+    font-size: 15px;
+  }
+}
+.carousel {
+  margin-bottom: 30px;
+}
+
+.carousel-inner {
+  max-height: 600px;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 30px;
+  height: 30px;
+  opacity: 1;
+}
+
+.carousel-indicators .active {
+  background-color: #e92569;
+}
+
+.tab-pane {
+  background-color: #ffffff;
+  padding: 50px;
+  box-shadow: 0px 5px 5px 5px lightgrey;
+  border-radius: 0px 5px 5px 5px;
+}
+
+.nav-tabs .nav-link {
+  color: #e92569;
+  border: none;
+  border-radius: 5px 5px 0px 0px;
+}
+
+span.share {
+  color: #0a0a0a;
+  text-transform: uppercase;
+}
+
+i.fa-brands.fa-facebook-f {
+  color: #0a0a0a;
+  margin-left: 5px;
+}
+
+i.fa-brands.fa-twitter {
+  color: #0a0a0a;
+  margin-left: 5px;
+}
+
+.accordion {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .tablist-container {
+    display: none;
+  }
+  .accordion {
+    display: contents;
+    background: #ffffff;
+    color: #e92569;
+  }
+  .accordion button:after {
+    display: none;
+  }
+}
+.container {
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+.cardrow {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  margin-top: 30px;
+}
+
+.newscard {
+  width: 264px;
+  padding: 0px !important;
+}
+
+#card-btn {
+  width: 232px;
+  color: #ffffff;
+  background: linear-gradient(to right, #e92569 85%, #767676 15%);
+  border: none;
+  text-transform: uppercase;
+}
+
+.btn-group {
+  margin-top: 30px;
+}
+
+#btn {
+  background-color: #ffffff;
+  color: #e92569;
+  border: 1px solid #e92569;
+}
+
+#btn-active {
+  background-color: #e92569;
+  color: #ffffff;
+  border: 1px solid #e92569;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    margin: 0 auto;
+    align-content: center;
+  }
+  .newscard {
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+}
+.form-container {
+  margin-left: 14px;
+}
+
+div.col.col-one {
+  background: #EFEFEF;
+  margin-right: 30px;
+}
+
+.first-item {
+  margin-top: 30px;
+}
+
+#form-btn {
+  width: 100%;
+  background: #767676;
+  color: #ffffff;
+  border: none;
+  margin-bottom: 30px;
+}
+
+#basic-addon3 {
+  background: #c7c7c7;
+}
+
+.input-group-text {
+  color: #ffffff;
+}
+
+.form-check-input {
+  background: #e92569;
+}
+
+div.col.col-two {
+  color: #767676;
+  margin: 10px;
+  font-size: 16px;
+}
+
+address {
+  white-space: break-spaces;
+  margin-left: -145px;
+  margin-top: -50px;
+}/*# sourceMappingURL=style.css.map */
